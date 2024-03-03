@@ -4,8 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <dialog>
+      <div class="start-screen">
+        <label for="">Enter player1's name:</label>
+        <input type="text" id="player1-name" />
+        <label for="">Enter player2's name:</label>
+        <input type="text" id="player2-name" />
+        <button class="start">Start game</button>
+      </div>
+    </dialog>
+    <h1 class="turn"></h1>
+
+    <div class="gameboard">
+      <button class="btn"></button>
+      <button class="btn"></button>
+      <button class="btn"></button>
+      <button class="btn"></button>
+      <button class="btn"></button>
+      <button class="btn"></button>
+      <button class="btn"></button>
+      <button class="btn"></button>
+      <button class="btn"></button>
+    </div>
+    <p class="player1-score">Player 1:</p>
+    <p class="player2-score">Player 2:</p>
+    <p class="draws">Draw:</p>
+    <button class="play-again">Play again</button>
     <script src="script.js"></script>
   </body>
 </html>

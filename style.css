@@ -1,0 +1,73 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.gameboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  background-color: #ccc;
+  margin: 50px auto;
+}
+
+.start-screen {
+  width: 100%;
+  height: 100%;
+}
+
+dialog {
+  margin: 0 auto;
+  margin-top: 200px;
+  padding: 50px;
+}
+
+dialog div {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+button {
+  font-size: 24px;
+}
+
+.gameboard button {
+  height: 33.3%;
+  width: 33.3%;
+  font-size: 32px;
+}
+
+dialog::backdrop {
+  background-color: #cccccccb;
+}
+
+button:disabled {
+  background-color: buttonface;
+  color: buttontext;
+}
+
+p {
+  text-align: center;
+  font-size: 26px;
+}
+
+.play-again {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
